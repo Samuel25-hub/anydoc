@@ -1,54 +1,32 @@
 {
-  "name": "@firecrawl/anydoc",
+  "name": "@samuel25-hub/anydoc",
   "version": "0.1.7",
   "description": "Convert documents (doc, docx, odt, rtf, epub, pdf, presentations, spreadsheets, csv) to GitHub-Flavored Markdown",
   "license": "MIT",
   "homepage": "https://github.com/firecrawl/anydoc#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/firecrawl/anydoc.git",
+    "url": "git+https://github.com/Samuel25-hub/anydoc.git",
     "directory": "node"
   },
   "bugs": {
-    "url": "https://github.com/firecrawl/anydoc/issues"
+    "url": "https://github.com/Samuel25-hub/anydoc/issues"
   },
-  "keywords": [
-    "markdown",
-    "docx",
-    "pdf",
-    "pptx",
-    "xlsx",
-    "epub",
-    "converter",
-    "document"
-  ],
+  "keywords": ["markdown", "docx", "pdf", "pptx", "xlsx", "epub", "converter", "document"],
   "main": "index.js",
   "types": "index.d.ts",
   "bin": {
     "anydoc": "cli.js"
   },
-  "files": [
-    "index.js",
-    "index.d.ts",
-    "cli.js",
-    "README.md"
-  ],
+  "files": ["index.js", "index.d.ts", "cli.js", "README.md"],
   "engines": {
     "node": ">= 20"
   },
   "napi": {
     "binaryName": "anydoc",
-    "packageName": "@firecrawl/anydoc",
+    "packageName": "@samuel25-hub/anydoc",
     "dtsHeaderFile": "dts-header.d.ts",
-    "targets": [
-      "x86_64-apple-darwin",
-      "aarch64-apple-darwin",
-      "x86_64-unknown-linux-gnu",
-      "aarch64-unknown-linux-gnu",
-      "x86_64-unknown-linux-musl",
-      "aarch64-unknown-linux-musl",
-      "x86_64-pc-windows-msvc"
-    ]
+    "targets": ["x86_64-apple-darwin", "aarch64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu", "x86_64-unknown-linux-musl", "aarch64-unknown-linux-musl", "x86_64-pc-windows-msvc"]
   },
   "scripts": {
     "artifacts": "napi artifacts",
