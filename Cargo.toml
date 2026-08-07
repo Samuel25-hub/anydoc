@@ -11,6 +11,7 @@ rust-version = "1.88"
 description = "Convert documents (doc, docx, odt, rtf, epub, pdf, presentations, spreadsheets, csv) to GitHub-Flavored Markdown"
 license = "MIT"
 repository = "https://github.com/Samuel25-hub/anydoc"
+homepage = "https://github.com/firecrawl/anydoc"
 readme = "README.md"
 keywords = ["markdown", "docx", "pdf", "converter", "document"]
 categories = ["parser-implementations", "text-processing"]
